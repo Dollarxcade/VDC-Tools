@@ -1,5 +1,12 @@
 # VDC-Tools
-Community made tools for VDC community members, players, teams etc. can also be adapted to be used outside VDC.
+Community made tools for VDC community members, players, teams etc. can also be adapted to be used outside VDC. 
+
+VDC is an NA based, community run VALORANT league for all skill levels. They offer a casually competitive season based environment without the need to make a team of your own.
+More info [here](vdc.gg)
+
+> [!NOTE]
+> This project is a community-built, unofficial tool and is **not affiliated with, endorsed by, or partnered with VDC** in any way.  
+It was created independently by the community for convenience and informational purposes only.
 
 ## VDC League Simulation Script
 > [!NOTE]
@@ -111,5 +118,96 @@ python -m playwright install chromium
 6. Trigger the Scrape: Once the filtered player list is visible, go back to the VS Code terminal at the bottom and press the Enter key.
 7. Wait for Completion: The script will automatically click "Load more" until the end of the list is reached.
 8. Find your Data: Once finished, a file named `league_roster.csv` will be created in the same folder as your script.
+
+## Google Sheets Automated Standings & Tiebreaker System
+> [!NOTE]
+> This was built for VDC tiebreaker rules so it may not apply to different leagues.
+
+This project is a Google Sheets–based automated standings, ranking, and tiebreaker calculation system designed specifically for VDC.  
+It automatically calculates group standings, overall standings, and applies official VDC tiebreaker rules.
+
+[Spreadsheet link](https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit?usp=sharing)
+
+[VDC tiebreaker ruleset](https://blog.vdc.gg/rulebook/)
+
+---
+
+### Setup Instructions
+
+### 1. Make a Copy of the Spreadsheet
+
+Before making any changes, create your own copy of the spreadsheet:
+
+- File → Make a copy
+
+---
+
+### 2. Add Teams
+
+1. Go to the `input` sheet  
+2. Fill in the team names for Group A and Group B inside the yellow highlighted region
+
+<img width="711" height="699" alt="image" src="https://github.com/user-attachments/assets/235b7c79-6655-415d-9877-61f924d6095a" />
+
+#### Adding More Teams Than the Highlighted Area
+
+If you have more teams than the provided yellow region:
+
+- Do not type on a new row below the highlighted area
+- Right-click anywhere inside the yellow highlighted region
+- Select **Insert new row**
+  
+<img width="522" height="546" alt="image" src="https://github.com/user-attachments/assets/e83d7f85-3df0-4d44-8343-1cbd05cc22b5" />
+
+
+This ensures all formulas remain aligned and functional.
+
+After inserting a new row:
+
+- Drag down all formulas from the row directly above
+- Continue dragging until the very end of the sheet
+
+<img width="1891" height="772" alt="image" src="https://github.com/user-attachments/assets/6f3b3211-482a-4c0d-b756-60a8c8a4acaf" />
+
+---
+
+### 3. Dashboard Sheet Row Setup
+
+For every extra team added:
+
+1. Go to the `Dashboard` sheet  
+2. Right-click inside the standings table itself  
+3. Select **Insert new row**
+
+<img width="573" height="475" alt="image" src="https://github.com/user-attachments/assets/a4f6e141-b265-4926-8a68-0d770540f899" />
+
+Do this for:
+- Group standings
+- Overall standings
+
+Errors that appear at the bottom of the tables can be ignored.  
+They will automatically disappear once the initial yellow highlighted region in the `input` sheet is fully populated.
+
+---
+
+### 4. Enter Match Results
+
+In the `input` sheet:
+
+- Fill in the blue highlighted region with:
+  - Team names
+  - Match scores
+  - Matchday information
+  - Any additional match data
+
+Once entered, all standings and tiebreakers will update automatically.
+
+---
+
+### Simulation Results Sheet
+
+A `Simulation Results` sheet is included.
+
+You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
 
 *Last updated 2026-1-12*
