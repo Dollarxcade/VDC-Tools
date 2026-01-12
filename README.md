@@ -8,6 +8,12 @@ More info [here](vdc.gg)
 > This project is a community-built, unofficial tool and is **not affiliated with, endorsed by, or partnered with VDC** in any way.  
 It was created independently by the community for convenience and informational purposes only.
 
+Content:
+- League Simulation Script
+- MMR Scraper
+- Google Sheets Automated Standings & Tiebreaker System
+
+
 ## VDC League Simulation Script
 > [!NOTE]
 > This was made for a specific Valorant league that I participated in. Although the code is fairly simple and the tiebreaker logic is very similar to other Valorant leagues and VCT so if you have coding knowledge it's fairly simple to fix.
