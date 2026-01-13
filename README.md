@@ -9,11 +9,11 @@ More info [here](vdc.gg)
 It was created independently by the community for convenience and informational purposes only.
 
 Content:
-- League Simulation Script
-- MMR Scraper
-- Google Sheets Automated Standings & Tiebreaker System
-- Google Sheets Automated ELO Rating & Standings System
-- Team Manager – All-in-One Google Sheet
+- [League Simulation Script](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#league-simulation-script)
+- [MMR Scraper](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#mmr-scraper)
+- [Google Sheets Automated Standings & Tiebreaker System](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#google-sheets-automated-standings--tiebreaker-system)
+- [Google Sheets Automated ELO Rating & Standings System](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#google-sheets-automated-elo-rating--standings-system)
+- [Team Manager – All-in-One Google Sheet](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#team-manager--all-in-one-google-sheet)
 
 
 # League Simulation Script
