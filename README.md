@@ -18,9 +18,9 @@ Content:
 
 # League Simulation Script
 > [!NOTE]
-> This was made for a specific Valorant league that I participated in. Although the code is fairly simple and the tiebreaker logic is very similar to other Valorant leagues and VCT so if you have coding knowledge it's fairly simple to fix.
+> This was made specifically for VDC although the code is fairly simple and the tiebreaker logic is very similar to other Valorant leagues and VCT so if you have coding knowledge it's fairly simple to fix.
 
-The **VDC Simulation Script** is a Python-based league simulator created specifically for a Valorant league called **VDC**. It simulates the outcome of an entire season by combining real past match results with simulated future matches.
+This simulation script is a Python-based league simulator created specifically for **VDC**. It simulates the outcome of an entire season by combining real past match results with simulated future matches.
 
 The league uses a round-robin Best-of-2 format, meaning matches can end in ties on each matchday. For unplayed matches, the script applies a 50/50 match outcome logic to simulate future results based on existing match structure rather than team strength modeling.
 
