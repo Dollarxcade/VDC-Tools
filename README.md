@@ -78,6 +78,9 @@ Export the spreadsheet as a **CSV file**.
 - Simulation results will appear in the **VS Code console**
 - A new **CSV file** containing the simulated standings/results will be created in the same folder as the script
 
+Contributers
+- [Boketto](https://x.com/ShafanKhaja)
+
 # MMR Scraper
 > [!WARNING]
 > This was made to only work for the VDC website as of **2026-01-10**
@@ -126,6 +129,9 @@ python -m playwright install chromium
 6. Trigger the Scrape: Once the filtered player list is visible, go back to the VS Code terminal at the bottom and press the Enter key.
 7. Wait for Completion: The script will automatically click "Load more" until the end of the list is reached.
 8. Find your Data: Once finished, a file named `league_roster.csv` will be created in the same folder as your script.
+
+Contributers
+- [Boketto](https://x.com/ShafanKhaja)
 
 # Google Sheets Automated Standings & Tiebreaker System
 > [!NOTE]
@@ -331,6 +337,9 @@ You may:
 
 These edits do not affect calculations.
 
+Contributers
+- [Boketto](https://x.com/ShafanKhaja)
+
 # Team Manager – All-in-One Google Sheet
 > [!TIP]
 > Even though this was made with VDC in mind, the main feature of map recommendations can still work and be very useful outside of VDC.
@@ -437,5 +446,9 @@ Important notes:
 
 - Only edit input cells intended for user data
 - Do not overwrite formula cells
+
+Contributers
+- [Boketto](https://x.com/ShafanKhaja)
+- [Wia](https://x.com/gaymanlovr69)
 
 *Last updated 2026-1-12*
