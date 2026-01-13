@@ -13,6 +13,7 @@ Content:
 - MMR Scraper
 - Google Sheets Automated Standings & Tiebreaker System
 - Google Sheets Automated ELO Rating & Standings System
+- Team Manager – All-in-One Google Sheet
 
 
 # League Simulation Script
