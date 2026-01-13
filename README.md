@@ -1,5 +1,5 @@
 # VDC-Tools
-Community made tools for VDC community members, players, teams etc. can also be adapted to be used outside VDC. 
+Community made tools for VDC (Valorant Draft Circuit) community members, players, teams etc. can also be adapted to be used outside VDC. 
 
 VDC is an NA based, community run VALORANT league for all skill levels. They offer a casually competitive season based environment without the need to make a team of your own.
 More info [here](vdc.gg)
