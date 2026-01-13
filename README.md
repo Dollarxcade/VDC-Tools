@@ -226,6 +226,9 @@ A `Simulation Results` sheet is included.
 
 You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
 
+Contributers
+- [Boketto](https://x.com/ShafanKhaja)
+  
 # Google Sheets Automated ELO Rating & Standings System
 > [!TIP]
 > Even though this was created with VDC in mind, I don't see an issue with using it outside of VDC other than possibly the round robin format.
