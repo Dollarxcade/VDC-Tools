@@ -221,6 +221,8 @@ A `Simulation Results` sheet is included.
 You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
 
 # Google Sheets Automated ELO Rating & Standings System
+> [!TIP]
+> Even though this was created with VDC in mind, I don't see an issue with using it outside of VDC other than possibly the round robin format.
 
 This project is a Google Sheets–based ELO rating system that automatically calculates team ratings from match results and converts them into live standings.  
 It also tracks historical ELO data and visualizes rating changes over time using built-in graphs and statistics.
@@ -330,6 +332,8 @@ You may:
 These edits do not affect calculations.
 
 # Team Manager – All-in-One Google Sheet
+> [!TIP]
+> Even though this was made with VDC in mind, the main feature of map recommendations can still work and be very useful outside of VDC.
 
 This project is an all-in-one Google Sheets tool designed to help manage a VDC team.  
 It centralizes map pool analysis, match history, roster MMR checks, and agent composition planning into a single spreadsheet.
