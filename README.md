@@ -12,9 +12,10 @@ Content:
 - League Simulation Script
 - MMR Scraper
 - Google Sheets Automated Standings & Tiebreaker System
+- Google Sheets Automated ELO Rating & Standings System
 
 
-## League Simulation Script
+# League Simulation Script
 > [!NOTE]
 > This was made for a specific Valorant league that I participated in. Although the code is fairly simple and the tiebreaker logic is very similar to other Valorant leagues and VCT so if you have coding knowledge it's fairly simple to fix.
 
@@ -76,7 +77,7 @@ Export the spreadsheet as a **CSV file**.
 - Simulation results will appear in the **VS Code console**
 - A new **CSV file** containing the simulated standings/results will be created in the same folder as the script
 
-## MMR Scraper
+# MMR Scraper
 > [!WARNING]
 > This was made to only work for the VDC website as of **2026-01-10**
 
@@ -125,7 +126,7 @@ python -m playwright install chromium
 7. Wait for Completion: The script will automatically click "Load more" until the end of the list is reached.
 8. Find your Data: Once finished, a file named `league_roster.csv` will be created in the same folder as your script.
 
-## Google Sheets Automated Standings & Tiebreaker System
+# Google Sheets Automated Standings & Tiebreaker System
 > [!NOTE]
 > This was built for VDC tiebreaker rules so it may not apply to different leagues.
 
@@ -218,7 +219,7 @@ A `Simulation Results` sheet is included.
 
 You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
 
-## Google Sheets Automated ELO Rating & Standings System
+# Google Sheets Automated ELO Rating & Standings System
 
 This project is a Google Sheets–based ELO rating system that automatically calculates team ratings from match results and converts them into live standings.  
 It also tracks historical ELO data and visualizes rating changes over time using built-in graphs and statistics.
