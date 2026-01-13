@@ -244,6 +244,9 @@ Before editing, create your own copy:
 
 Only edit highlighted cells. All other cells may contain formulas.
 
+<img width="464" height="163" alt="image" src="https://github.com/user-attachments/assets/a6eaaab3-4afb-4141-ac1c-3006cb6faad1" />
+
+
 ---
 
 ### 3. Enter Match Results
@@ -252,7 +255,9 @@ Only edit highlighted cells. All other cells may contain formulas.
 2. Fill in match data inside the **yellow highlighted region**
    - Teams
    - Scores
-   - Matchday
+   - MMR Values
+
+<img width="1851" height="551" alt="image" src="https://github.com/user-attachments/assets/8f767390-7ce6-4ec0-85ad-0b0a3e8c983b" />
 
 Once entered, ELO ratings, standings, and graphs will update automatically.
 
@@ -260,11 +265,12 @@ Once entered, ELO ratings, standings, and graphs will update automatically.
 
 ### Importing Match Results from the Automated Standings Tracker (Optional)
 
-If you already use the [**Automated Standings & Tiebreaker System**](https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit?usp=sharing), you can import match data directly using Google Sheets’ `IMPORTRANGE` feature.
+If you already use the [**Automated Standings & Tiebreaker System**](https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit?usp=sharing), you can import match data directly using Google Sheets’ `IMPORTRANGE` feature to cover everything except MMR values.
 
 ### Example Usage
 
 In the `match results` sheet, select the first yellow input cell and use: 
+
 `=IMPORTRANGE(
 "https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit
 ",
@@ -289,6 +295,8 @@ After initial setup, at the bottom of the `match results` sheet:
 - Continue dragging until **Column A shows the error**: `Out of Range`
 
 This ensures all future matches are supported correctly.
+
+<img width="567" height="711" alt="image" src="https://github.com/user-attachments/assets/1b6c9b3e-9a3f-40fe-882c-b6ee5ea5a4b0" />
 
 ---
 
