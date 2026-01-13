@@ -170,7 +170,7 @@ This ensures all formulas remain aligned and functional.
 
 After inserting a new row:
 
-- Drag down all formulas from the row directly above
+- Drag down all formulas from the row directly above into the new row
 - Continue dragging until the very end of the sheet
 
 <img width="1891" height="772" alt="image" src="https://github.com/user-attachments/assets/6f3b3211-482a-4c0d-b756-60a8c8a4acaf" />
@@ -186,6 +186,8 @@ For every extra team added:
 3. Select **Insert new row**
 
 <img width="573" height="475" alt="image" src="https://github.com/user-attachments/assets/a4f6e141-b265-4926-8a68-0d770540f899" />
+
+4. Drag down the formula into the new row
 
 Do this for:
 - Group standings
@@ -215,5 +217,106 @@ Once entered, all standings and tiebreakers will update automatically.
 A `Simulation Results` sheet is included.
 
 You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
+
+## Google Sheets Automated ELO Rating & Standings System
+
+This project is a Google Sheets–based ELO rating system that automatically calculates team ratings from match results and converts them into live standings.  
+It also tracks historical ELO data and visualizes rating changes over time using built-in graphs and statistics.
+
+[Spreadsheet here](https://docs.google.com/spreadsheets/d/12b_lDNUbYqxHpNHtPxpJ_OTiewDC5RRBlatlvbtVSlw/edit?usp=sharing)
+
+---
+
+### Setup Instructions
+
+### 1. Make a Copy of the Spreadsheet
+
+Before editing, create your own copy:
+
+- File → Make a copy
+
+---
+
+### 2. Initial Configuration (Setup Sheet)
+
+1. Go to the `setup` sheet  
+2. Fill in all **yellow highlighted cells** with the required configuration information
+
+Only edit highlighted cells. All other cells may contain formulas.
+
+---
+
+### 3. Enter Match Results
+
+1. Go to the `match results` sheet  
+2. Fill in match data inside the **yellow highlighted region**
+   - Teams
+   - Scores
+   - Matchday
+
+Once entered, ELO ratings, standings, and graphs will update automatically.
+
+---
+
+### Importing Match Results from the Automated Standings Tracker (Optional)
+
+If you already use the [**Automated Standings & Tiebreaker System**](https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit?usp=sharing), you can import match data directly using Google Sheets’ `IMPORTRANGE` feature.
+
+### Example Usage
+
+In the `match results` sheet, select the first yellow input cell and use: 
+`=IMPORTRANGE(
+"https://docs.google.com/spreadsheets/d/1iVqiCy_-m65NpP89y5CUFUeXKAkDZaXLG5w-slLKe_8/edit
+",
+"input!A2:B"
+)`
+
+
+- Replace the range (`A2:B`) with the exact columns used for match results and the link with your actual public google sheets link (Share -> General Access -> Anyone with the link -> Copy Link)
+- The first time you use `IMPORTRANGE`, Google Sheets will prompt you to **Allow access**
+
+After linking, match results will sync automatically.
+
+---
+
+### Formula Expansion (Important)
+
+### Match Results Sheet
+
+After initial setup, at the bottom of the `match results` sheet:
+
+- Drag down all formula cells
+- Continue dragging until **Column A shows the error**: `Out of Range`
+
+This ensures all future matches are supported correctly.
+
+---
+
+### Current Stats + Historical Rating Sheet
+
+For additional teams or matchdays:
+
+- Always **right-click and use Insert new row or Insert new column**
+- Then drag existing formulas into the new cells
+
+This applies to:
+- Elo rating standings
+- Historical ELO calculations
+
+Failure to insert rows/columns correctly may break formulas.
+
+---
+
+### Historical Rating Graph
+
+The `Historical Rating Graph` sheet is fully customizable.
+
+You may:
+- Change line colors to match team branding
+- Adjust axis scale
+- Hide or show specific teams
+- Modify labels and legends
+
+These edits do not affect calculations.
 
 *Last updated 2026-1-12*
