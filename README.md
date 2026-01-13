@@ -328,4 +328,109 @@ You may:
 
 These edits do not affect calculations.
 
+# Team Manager – All-in-One Google Sheet
+
+This project is an all-in-one Google Sheets tool designed to help manage a VDC team.  
+It centralizes map pool analysis, match history, roster MMR checks, and agent composition planning into a single spreadsheet.
+
+[Spreadsheet link here](https://docs.google.com/spreadsheets/d/1SWhro6UYdIzxZ5x-PP6vxIt23eZ_uJ9_1a1J2lPUx9E/edit?usp=sharing)
+
+---
+
+## Features
+
+- Map pool strength analysis and recommendations
+- Match history tracking (officials and scrims)
+- Roster MMR limit checking
+- Agent composition planning per map
+
+---
+
+## Setup Instructions
+
+### 1. Make a Copy of the Spreadsheet
+
+Before editing, create your own copy:
+
+- File → Make a copy
+
+---
+
+## Sheet Overview & Usage
+
+### 1. Map Pool Sheet
+
+The `Map Pool` sheet helps identify your team’s strongest maps.
+
+#### Setup Steps
+
+1. First, go to the `Agent Comps` sheet  
+2. Checkmark every map that is currently in the active VDC map pool  
+3. Go back to the `Map Pool` sheet  
+4. Fill in cells **B3 through L8** with:
+   - Player names
+   - Player roles
+   - A rating for each map from **1–10**
+     - 1 = worst map
+     - 10 = best map
+
+Once filled, the table underneath will automatically recommend your best maps based on team strength.
+
+<img width="1821" height="774" alt="image" src="https://github.com/user-attachments/assets/5bab949b-62ff-4d50-b1fe-14a4e7703c2d" />
+
+---
+
+### 2. Input Sheet (Optional)
+
+The `Input` sheet is optional but recommended.
+
+- Enter all matches your team has played together
+- Includes:
+  - Official matches
+  - Scrims
+
+This data is used by the `Map Pool` system to improve map recommendations and better reflect real performance.
+
+---
+
+### 3. MMR Sheet
+
+The `MMR` sheet is used to quickly compare different roster combinations and check if they fit within the allowed MMR limit.
+
+<img width="783" height="699" alt="image" src="https://github.com/user-attachments/assets/d9709811-a5cb-4e9c-92d2-3ef04590bcd6" />
+
+
+#### Important Setup Step
+
+- Change the value in cell **D16** (grey cell) to match your league’s actual MMR limit
+
+<img width="236" height="167" alt="image" src="https://github.com/user-attachments/assets/eb620970-a567-447d-908e-be3d06447126" />
+
+- Make sure all main players are entered in the `Map Pool` sheet first
+
+After updating the limit, you can freely test roster combinations to see whether they are eligible.
+
+---
+
+### 4. Agent Comps Sheet
+
+The `Agent Comps` sheet is used to plan agent assignments per map.
+
+<img width="1462" height="633" alt="image" src="https://github.com/user-attachments/assets/1458038a-c54c-4abf-a3b7-da608d10cf98" />
+
+- All maps are listed automatically
+- Player names are pulled directly from the `Map Pool` sheet
+
+Important notes:
+- Make sure all players are entered in the `Map Pool` sheet first
+- Select which agent each player should play on each map
+- This sheet depends on correct setup in `Map Pool`
+
+---
+
+## Final Notes
+
+- Only edit input cells intended for user data
+- Do not overwrite formula cells
+
 *Last updated 2026-1-12*
