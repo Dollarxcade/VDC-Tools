@@ -451,7 +451,66 @@ Important notes:
 - Do not overwrite formula cells
 
 Contributers
-- [Boketto](https://x.com/ShafanKhaja)
-- [Wia](https://x.com/gaymanlovr69)
+- [Wia](https://x.com/gaymanlovr69) - Original Creator
+- [Boketto](https://x.com/ShafanKhaja) - Editor
 
-*Last updated 2026-1-12*
+# Cloudberry's Comfortability Chart (Updated for V26 A2)
+> [!NOTE]
+> Last updated 2026-4-17 for V26 A2 of Valorant.
+> The maps in bold are the current map pool of V26 A2.
+
+**Cloudberry's Comfortability Chart** is a simple but powerful spreadsheet tool designed to help competitive *Valorant* players clearly communicate their agent comfort levels across every map.
+
+[Spreadsheet link here]([https://docs.google.com/spreadsheets/d/1SWhro6UYdIzxZ5x-PP6vxIt23eZ_uJ9_1a1J2lPUx9E/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1P1aligox27r2oxK3deZS0BpueX86zBl0ghfXE-SczGs/edit?usp=sharing))
+
+Each column represents an agent, and each row represents a map. By filling in the intersecting cells, players can show exactly how confident they are playing a specific agent on a specific map.
+
+This tool was originally created for players in the **Valorant Draft Circuit (VDC)**, but it can easily be adapted for any competitive or team-based *Valorant* environment.
+
+The goal is to:
+- Help teams quickly understand your strengths and flexibility
+- Make drafting/signing decisions smoother
+- Reduce confusion when building team compositions
+- Speed up team adaptation, especially when playing with new teammates
+
+It’s also extremely useful after being signed or drafted, as teams can use it to coordinate roles and compositions—especially early in a season when everyone is still learning each other's strengths.
+
+---
+
+## How to Use
+
+1. **Understand the layout**
+   - Each **column = an agent**
+   - Each **row = a map**
+   - Each **cell = your comfort level for that agent on that map**
+
+2. **Use the toolbar at the bottom**
+   - At the bottom of the sheet, you’ll find pre-made cells for each comfort level:
+     - **Comfortable (C)**
+     - **Have Reps (R)**
+     - **Willing to Learn (L)** 
+     - **Please Don't (X)**
+
+<img width="698" height="184" alt="image" src="https://github.com/user-attachments/assets/d1632497-0b03-44b9-b6e9-3c7fba93aad4" />
+
+4. **Fill in your chart**
+   - Click on a cell from the toolbar that represents your comfort level
+   - Press **Ctrl + C** to copy it
+   - Select any agent/map cells where it applies
+   - Press **Ctrl + V** to paste
+
+   Example:
+   - If you are comfortable playing Jett on Ascent and Bind:
+     - Copy the green **C** cell
+     - Paste it into the Jett–Ascent and Jett–Bind cells
+
+<img width="257" height="423" alt="image" src="https://github.com/user-attachments/assets/e646e4ea-8b72-490a-8c39-c91e76a0b077" />
+
+5. **Repeat until your chart is complete**
+   - Fill out as much or as little as you want, depending on your experience
+
+Contributers
+- [Cloudberry](https://discord.com/users/1233901097308131409) - Original Creator
+- [Boketto](https://x.com/ShafanKhaja) - Editor
+
+*Last updated 2026-4-17*
