@@ -2,7 +2,7 @@
 Community made tools for VDC (Valorant Draft Circuit) community members, players, teams etc. can also be adapted to be used outside VDC. 
 
 VDC is an NA based, community run VALORANT league for all skill levels. They offer a casually competitive season based environment without the need to make a team of your own.
-More info [here](vdc.gg)
+More info [here](https://vdc.gg)
 
 > [!NOTE]
 > This project is a community-built, unofficial tool and is **not affiliated with, endorsed by, or partnered with VDC** in any way.  
