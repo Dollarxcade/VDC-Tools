@@ -14,7 +14,7 @@ Content:
 - [Google Sheets Automated Standings & Tiebreaker System](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#google-sheets-automated-standings--tiebreaker-system)
 - [Google Sheets Automated ELO Rating & Standings System](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#google-sheets-automated-elo-rating--standings-system)
 - [Team Manager – All-in-One Google Sheet](https://github.com/Dollarxcade/VDC-Tools/tree/main?tab=readme-ov-file#team-manager--all-in-one-google-sheet)
-- [Cloudberry's Comfortability Chart (Updated V26 A2)]()
+- [Cloudberry's Comfortability Chart (Updated V26 A2)](https://github.com/Dollarxcade/VDC-Tools/blob/main/README.md#cloudberrys-comfortability-chart-updated-for-v26-a2)
 
 # League Simulation Script
 > [!NOTE]
