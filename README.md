@@ -79,7 +79,7 @@ Export the spreadsheet as a **CSV file**.
 - A new **CSV file** containing the simulated standings/results will be created in the same folder as the script
 
 Contributers
-- [Boketto](https://x.com/ShafanKhaja)
+- [Boketto](https://github.com/Dollarxcade)
 
 # MMR Scraper
 > [!WARNING]
@@ -131,7 +131,7 @@ python -m playwright install chromium
 8. Find your Data: Once finished, a file named `league_roster.csv` will be created in the same folder as your script.
 
 Contributers
-- [Boketto](https://x.com/ShafanKhaja)
+- [Boketto](https://github.com/Dollarxcade)
 
 # Google Sheets Automated Standings & Tiebreaker System
 > [!NOTE]
@@ -227,7 +227,7 @@ A `Simulation Results` sheet is included.
 You can copy and paste simulation outputs from the earlier simulation project into this sheet to preview projected standings and playoff chances
 
 Contributers
-- [Boketto](https://x.com/ShafanKhaja)
+- [Boketto](https://github.com/Dollarxcade)
   
 # Google Sheets Automated ELO Rating & Standings System
 > [!TIP]
@@ -341,7 +341,7 @@ You may:
 These edits do not affect calculations.
 
 Contributers
-- [Boketto](https://x.com/ShafanKhaja)
+- [Boketto](https://github.com/Dollarxcade)
 
 # Team Manager – All-in-One Google Sheet
 > [!TIP]
@@ -452,7 +452,7 @@ Important notes:
 
 Contributers
 - [Wia](https://x.com/gaymanlovr69) - Original Creator
-- [Boketto](https://x.com/ShafanKhaja) - Editor
+- [Boketto](https://github.com/Dollarxcade) - Editor
 
 # Cloudberry's Comfortability Chart (Updated for V26 A2)
 > [!NOTE]
@@ -511,6 +511,6 @@ It’s also extremely useful after being signed or drafted, as teams can use it 
 
 Contributers
 - [Cloudberry](https://discord.com/users/1233901097308131409) - Original Creator
-- [Boketto](https://x.com/ShafanKhaja) - Editor
+- [Boketto](https://github.com/Dollarxcade) - Editor
 
 *Last updated 2026-4-17*
