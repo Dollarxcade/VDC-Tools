@@ -454,10 +454,10 @@ Contributers
 - [Wia](https://x.com/gaymanlovr69) - Original Creator
 - [Boketto](https://github.com/Dollarxcade) - Editor
 
-# Cloudberry's Comfortability Chart (Updated for V26 A2)
+# Cloudberry's Comfortability Chart (Updated for Patch 12.09)
 > [!NOTE]
-> Last updated 2026-4-17 for V26 A2 of Valorant.
-> The maps in bold are the current map pool of V26 A2.
+> Last updated 2026-05-17 for Patch 12.09 of Valorant.
+> The maps in bold are the current map pool of Patch 12.09.
 
 **Cloudberry's Comfortability Chart** is a simple but powerful spreadsheet tool designed to help competitive *Valorant* players clearly communicate their agent comfort levels across every map.
 
@@ -494,15 +494,12 @@ It’s also extremely useful after being signed or drafted, as teams can use it 
 <img width="698" height="184" alt="image" src="https://github.com/user-attachments/assets/d1632497-0b03-44b9-b6e9-3c7fba93aad4" />
 
 4. **Fill in your chart**
-   - Click on a cell from the toolbar that represents your comfort level
-   - Press **Ctrl + C** to copy it
-   - Select any agent/map cells where it applies
-   - Press **Ctrl + V** to paste
-
+   - Click on a cell that you want to edit.
+   - Type in the letter that represents your comfort level.
+     
    Example:
    - If you are comfortable playing Jett on Ascent and Bind:
-     - Copy the green **C** cell
-     - Paste it into the Jett–Ascent and Jett–Bind cells
+     - Type "C" in that cell
 
 <img width="257" height="423" alt="image" src="https://github.com/user-attachments/assets/e646e4ea-8b72-490a-8c39-c91e76a0b077" />
 
@@ -513,4 +510,4 @@ Contributers
 - [Cloudberry](https://discord.com/users/1233901097308131409) - Original Creator
 - [Boketto](https://github.com/Dollarxcade) - Editor
 
-*Last updated 2026-4-17*
+*Last updated 2026-05-28*
